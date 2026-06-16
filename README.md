@@ -25,10 +25,11 @@ Clone this repo, open Claude Code, and ask it anything about your ads. It knows 
 
 ### 40+ Knowledge Base Files
 
-**Ads Foundations (10 files):**
+**Ads Foundations (11 files):**
 - 5-Stage Demand Engine (replaces traditional TOFU/MOFU/BOFU)
 - Budget allocation by stage and channel
 - Ad copywriting frameworks (voice-of-customer, 5-layer audit)
+- Writing style guide (no AI slop - governs all copy and replies)
 - Channel selection criteria
 - Optimization signals (leading vs lagging)
 - Scaling quadrant framework
@@ -60,7 +61,15 @@ Clone this repo, open Claude Code, and ask it anything about your ads. It knows 
 - ABM on Meta playbook
 - Offer strategy by funnel stage
 
-**Google Ads (1 file):**
+**Google Ads (9 files):**
+- Intent-first strategy (the intent ladder - capture demand before creating it)
+- Account structure (split by intent, themed ad groups, naming, default settings to fix)
+- Keywords and match types (the Phrase/Exact -> Broad progression, negatives)
+- Bidding strategy (by conversion volume, tCPA/tROAS, the optimize-to-quality trap)
+- Search terms and negatives (the weekly ritual, what to cut)
+- Benchmarks and measurement (B2B ranges, offline conversion import, weekly scorecard)
+- Performance Max for B2B (when to run it, guardrails, how to read it)
+- RSAs and landing pages (asset strategy, pinning, message match, Quality Score)
 - Campaign types cheatsheet (Search, Shopping, Display, PMax, Video)
 
 ### 39 Python Scripts
@@ -162,7 +171,7 @@ ads-skills/
 │       └── google-ads/                 # Google Ads skill
 │           ├── SKILL.md
 │           ├── api-reference.md
-│           ├── knowledge-base/         # 1 strategy file
+│           ├── knowledge-base/         # 9 strategy files
 │           └── scripts/               # 13 Python scripts
 ├── ads-foundations/                     # 10 cross-platform advertising frameworks
 ├── .env.example                        # Credential template
@@ -186,7 +195,7 @@ If you want to see what a full AI-native advertising operation looks like, check
 
 ## License
 
-MIT - see [LICENSE](LICENSE). Use it, fork it, build on it. Attribution appreciated.
+Source-available: MIT + [Commons Clause](https://commonsclause.com/) - see [LICENSE](LICENSE). Use it, fork it, build on it, run it for your own and your clients' accounts. You just can't repackage and resell the skills themselves as a product. Attribution appreciated.
 
 ---
 

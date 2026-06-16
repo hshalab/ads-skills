@@ -29,14 +29,16 @@ SCOPES = ["https://www.googleapis.com/auth/adwords"]
 PORT = 8080
 
 _HERE = Path(__file__).parent
-_ENV_PATH = _HERE / ".env"
+# Canonical .env lives at the repo root (where onboarding creates it).
+_ROOT = Path(__file__).resolve().parents[4]
+_ENV_PATH = _ROOT / ".env"
 
 
 def _save_refresh_token(token: str) -> None:
     """Write GOOGLE_ADS_REFRESH_TOKEN into .env, replacing any existing value."""
     if not _ENV_PATH.exists():
         # Seed from the repo template if the user hasn't created .env yet.
-        example = _HERE.parents[2] / ".env.example"
+        example = _ROOT / ".env.example"
         if example.exists():
             _ENV_PATH.write_text(example.read_text())
         else:

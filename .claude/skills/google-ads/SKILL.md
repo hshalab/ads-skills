@@ -77,8 +77,23 @@ All scripts live in `scripts/`. Run from that directory.
 | Keyword optimization | Run `get_keyword_performance.py` | "Which keywords are working?" |
 | Create new campaign | Use the build workflow above | "Set up a search campaign for..." |
 | Pause/enable/budget changes | Run `update_campaign.py` | "Pause this campaign" / "Increase budget" |
-| Strategic campaign planning | `knowledge-base/cheatsheet-overview.md` | Campaign type selection, account structure |
-| General Google Ads strategy | Refer to the Demand Lifecycle framework | Full program planning |
+| Strategic campaign planning | Load the knowledge base files below | New account, media plan, scaling decision |
+
+## Knowledge Base
+
+Ground all strategy in these files. Read the relevant one before advising.
+
+| File | Contains | Read When |
+|------|----------|-----------|
+| [intent-first-strategy.md](knowledge-base/intent-first-strategy.md) | Intent ladder (brand -> high-intent -> competitor -> problem-aware -> demand-gen), capture-before-create, B2B realities | Any strategy/planning question, prioritizing spend |
+| [account-structure.md](knowledge-base/account-structure.md) | Splitting by intent, themed ad groups (not SKAGs), naming, network/geo defaults, when to consolidate | Setting up or restructuring an account |
+| [keyword-and-match-types.md](knowledge-base/keyword-and-match-types.md) | Match type progression, B2B keyword research, negatives, avoiding self-competition | Building keyword lists, choosing match types |
+| [bidding-strategy.md](knowledge-base/bidding-strategy.md) | Bidding by conversion volume, tCPA/tROAS, setting/moving targets, the optimize-to-quality trap | Choosing or changing a bid strategy |
+| [search-terms-and-negatives.md](knowledge-base/search-terms-and-negatives.md) | Weekly search terms ritual, what to negative, negative match types, shared lists | Weekly optimization, cutting waste |
+| [benchmarks-and-measurement.md](knowledge-base/benchmarks-and-measurement.md) | B2B SaaS benchmark ranges, metrics that matter, offline conversion import, weekly scorecard | Performance review, expectations, measurement setup |
+| [performance-max-b2b.md](knowledge-base/performance-max-b2b.md) | When/when-not to run PMax, guardrails (brand exclusions, signals, negatives), reading PMax | PMax questions, scaling beyond Search |
+| [rsa-and-landing-pages.md](knowledge-base/rsa-and-landing-pages.md) | RSA assets, pinning, writing to intent, landing page message match, Quality Score | Writing ads, improving CVR or Quality Score |
+| [cheatsheet-overview.md](knowledge-base/cheatsheet-overview.md) | Campaign types cheatsheet (Search, Shopping, Display, PMax, Video) | Quick campaign-type selection |
 
 ## Core Rules
 

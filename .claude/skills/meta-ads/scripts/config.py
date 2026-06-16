@@ -7,9 +7,12 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Load .env from the same directory as this file
-_env_path = Path(__file__).parent / ".env"
-load_dotenv(_env_path)
+# Load .env from the repo root (where onboarding creates it). Falls back to
+# this scripts directory if a local .env exists.
+_root_env = Path(__file__).resolve().parents[4] / ".env"
+_local_env = Path(__file__).parent / ".env"
+load_dotenv(_root_env)
+load_dotenv(_local_env)
 
 
 def get_config() -> dict:

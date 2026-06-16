@@ -6,9 +6,12 @@ import http.server
 import urllib.parse
 import requests
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv()
+# Canonical .env lives at the repo root (where onboarding creates it).
+ROOT_ENV = Path(__file__).resolve().parents[4] / ".env"
+load_dotenv(ROOT_ENV)
 
 CLIENT_ID = os.getenv("LINKEDIN_CLIENT_ID")
 CLIENT_SECRET = os.getenv("LINKEDIN_CLIENT_SECRET")
@@ -71,15 +74,21 @@ class OAuthHandler(http.server.BaseHTTPRequestHandler):
             return None
 
     def save_token(self, token):
-        env_path = os.path.join(os.path.dirname(__file__), ".env")
-        with open(env_path, "r") as f:
-            lines = f.readlines()
-        with open(env_path, "w") as f:
-            for line in lines:
-                if line.startswith("LINKEDIN_ACCESS_TOKEN="):
-                    f.write(f"LINKEDIN_ACCESS_TOKEN={token}\n")
-                else:
-                    f.write(line)
+        env_path = ROOT_ENV
+        # Seed .env from the template if the user hasn't created it yet.
+        if not env_path.exists():
+            example = env_path.parent / ".env.example"
+            env_path.write_text(example.read_text() if example.exists() else "")
+        lines = env_path.read_text().splitlines()
+        found = False
+        for i, line in enumerate(lines):
+            if line.startswith("LINKEDIN_ACCESS_TOKEN="):
+                lines[i] = f"LINKEDIN_ACCESS_TOKEN={token}"
+                found = True
+                break
+        if not found:
+            lines.append(f"LINKEDIN_ACCESS_TOKEN={token}")
+        env_path.write_text("\n".join(lines) + "\n")
 
     def log_message(self, format, *args):
         pass  # Suppress request logs
