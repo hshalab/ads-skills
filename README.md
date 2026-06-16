@@ -1,14 +1,14 @@
 # Ivan Falco's Ads Skills for Claude Code
 
-**Turn Claude Code into your B2B advertising co-pilot.** 40+ strategy files, 39 API scripts, and battle-tested frameworks for LinkedIn, Meta, and Google Ads - built from managing $200K+/month in B2B ad spend across 12+ accounts.
+**Run your B2B paid motion like an ads engineer.** 40+ strategy files, 39 API scripts, and battle-tested frameworks for LinkedIn, Meta, and Google Ads - built from managing $200K+/month in B2B ad spend across 12+ accounts.
 
-Clone this repo, open Claude Code, and ask it anything about your ads. It knows the strategy, it can pull your data, and it can manage your campaigns.
+Clone this repo, open Claude Code, and ask it anything about your ads. It knows the strategy, it pulls your live data, and it manages your campaigns.
 
 ## Built by
 
-**Ivan Falco** - Head of Growth at [ColdIQ](https://coldiq.com) and Head of the Ads/ABM agency. Building AI-native advertising systems that make one person operate like five.
+**Ivan Falco** - I do ads engineering: I help B2B companies scale their paid motion using smart AI systems - ABM and ABM 1:1, syncing ad audiences with outbound, AI-native creative, and scaling accounts like an engineer. Head of Growth at [ColdIQ](https://coldiq.com).
 
-If you need help with ads operations, growth operations, or scaling your B2B campaigns - DM Ivan directly: [LinkedIn](https://www.linkedin.com/in/ivanfalco/)
+**Want a human to look at your setup?** I run a free AI-native ads teardown - I'll review your accounts and how you run them, and map where smart AI systems would scale your paid motion. [Book a call](https://calendly.com/ivan-coldiq/call-with-ivan-falco-1) or find me on [LinkedIn](https://www.linkedin.com/in/ivanfalco/).
 
 ---
 
@@ -184,6 +184,10 @@ ads-skills/
 
 If you want to see what a full AI-native advertising operation looks like, check out what we're building at ColdIQ.
 
+## License
+
+MIT - see [LICENSE](LICENSE). Use it, fork it, build on it. Attribution appreciated.
+
 ---
 
-*Built by [Ivan Falco](https://www.linkedin.com/in/ivanfalco/) at [ColdIQ](https://coldiq.com). These skills are provided as-is. You are responsible for your own API usage, ad spend, and platform compliance.*
+*Built by [Ivan Falco](https://www.linkedin.com/in/ivanfalco/) at [ColdIQ](https://coldiq.com). Provided as-is. You are responsible for your own API usage, ad spend, and platform compliance.*

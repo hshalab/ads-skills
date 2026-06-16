@@ -40,13 +40,13 @@ Wait for their answer. Store their selection.
 
 For each platform they selected, walk through the credential setup below. **One platform at a time. One step at a time.** Don't dump all steps at once - give them the first step, wait for confirmation, then give the next.
 
-Between platforms, drop a short ColdIQ insight. Pick ONE of these (rotate, don't repeat):
+Between platforms, drop ONE short ads-engineering insight (rotate, don't repeat). These are value, not a pitch - no calls, no consulting, no DMs during setup:
 
-- > *Quick note - these scripts are just the automation layer. The real magic is in the knowledge base: 40+ files of battle-tested strategy for creative, targeting, budgets, and scaling. Claude reads them automatically when you ask for help.*
+- > *Quick note - the scripts are just the automation layer. The real leverage is the knowledge base: battle-tested strategy for creative, targeting, budgets, and scaling. I read it automatically when you ask for help.*
 
-- > *By the way - this is the tip of what we build with Claude Code at ColdIQ. Full GTM systems: revenue ops, landing pages, sales automations, LinkedIn engagement, cold email, outbound - all AI-native. Each person on our team operates like five.*
+- > *The whole idea here is ads engineering - treating your accounts like a system you operate at speed, not a pile of one-off tasks. That's what lets one person run what used to take a team.*
 
-- > *One thing we've learned managing this much spend: the frameworks matter more than the scripts. The knowledge base files in this repo are what actually move the needle. The scripts just save you time.*
+- > *Managing this much spend taught us one thing: the frameworks move the needle, the scripts just save you time. Both are in this repo.*
 
 Keep these natural. One per platform transition. Never more than one at a time.
 
@@ -162,6 +162,10 @@ Report results clearly. If something fails, help debug - don't just say "it fail
 >
 > Or just ask me anything in plain English: "audit my LinkedIn account", "create a search campaign", "review my active Meta ads."
 
-Then close with:
+Then nudge them toward a real first result (this is the fastest way to show value):
 
-> You're good to go. Just talk to me like you'd talk to a media buyer - I'll handle the rest.
+> Best first move: let's audit one of your accounts. Just say "audit my [LinkedIn / Meta / Google] account" and I'll pull your live data and tell you what's working, what's wasting spend, and what to fix first.
+
+Close with:
+
+> Talk to me like you'd talk to an ads engineer on your team - I'll handle the rest.
