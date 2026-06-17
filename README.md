@@ -4,6 +4,8 @@
 
 Clone this repo, open Claude Code, and ask it anything about your ads. It knows the strategy, it pulls your live data, and it manages your campaigns.
 
+> **Important:** this runs in **Claude Code on your own computer** - the `claude` CLI in your terminal, or the Claude Code desktop app (Local mode). It does **not** work in the Claude chat app (claude.ai / the Claude desktop chat), which can't run scripts on your machine. New to Claude Code? Install it: https://code.claude.com/docs
+
 ## Built by
 
 **Ivan Falco** - I do ads engineering: I help B2B companies scale their paid motion using smart AI systems - ABM and ABM 1:1, syncing ad audiences with outbound, AI-native creative, and scaling accounts like an engineer. Head of Growth at [ColdIQ](https://coldiq.com).
